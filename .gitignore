@@ -1,0 +1,127 @@
+﻿### Java ###
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Maven files
+target/
+
+# Gradle files
+.gradle/
+build/
+
+# IDE specific (Eclipse, IntelliJ)
+*.iml
+.idea/
+*.classpath
+*.project
+*.settings/
+
+### C# (.NET) ###
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Visual Studio Code files
+.vscode/
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+### React (Node.js) ###
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# ESLint cache
+.eslintcache
+
+# Next.js files
+.next/
+out/
+
+# Parcel files
+.cache/
+
+# Gatsby files
+.cache/
+public/
+
+# Storybook files
+.storybook-out/
+
+# Webpack files
+.webpack/
+
+### Common (OS-generated and IDE-specific) ###
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+*.swp
+*.swo
+*.idea/
+*.iml
+*.vscode/
+*.code-workspace
+
+# Lock files
+package-lock.json
+yarn.lock
