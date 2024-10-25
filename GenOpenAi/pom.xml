@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>GenOpenAi</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.9.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>// Create a class called AssetBuilder. It should use the Builder pattern to build an Asset. Create another class called FundingDetailsBuilder. It should use the Builder pattern to build a FundingDetails. The AssetBuilder should have an embedded FundingDetailsBuilder. When the category is "hardware" the AssetBuilder should create a Hardware object. When the category is "software" the AssetBuilder should create a Software object. When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy. When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy. When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy. When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy. The variables will need to be held in local variables and then passed to the Asset and FundingDetails objects when they are created.. The final method of the AssetBuilder should return an Asset and be called build().. The final method of the FundingDetailsBuilder should return a FundingDetails and be called build(). // Create a class called AssetBuilder. It should use the Builder pattern to build an Asset. Create another class called FundingDetailsBuilder. It should use the Builder pattern to build a FundingDetails. The AssetBuilder should have an embedded FundingDetailsBuilder. When the category is "hardware" the AssetBuilder should create a Hardware object. When the category is "software" the AssetBuilder should create a Software object. When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy. When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy. When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy. When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy. The variables will need to be held in local variables and then passed to the Asset and FundingDetails objects when they are created.. The final method of the AssetBuilder should return an Asset and be called build().. The final method of the FundingDetailsBuilder should return a FundingDetails and be called build(). // Please create a REST controller for this class. // Create a class called AssetBuilder. It should use the Builder pattern to build an Asset. Create another class called FundingDetailsBuilder. It should use the Builder pattern to build a FundingDetails. The AssetBuilder should have an embedded FundingDetailsBuilder. When the category is "hardware" the AssetBuilder should create a Hardware object. When the category is "software" the AssetBuilder should create a Software object. When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy. When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy. When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy. When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy. The variables will need to be held in local variables and then passed to the Asset and FundingDetails objects when they are created.. The final method of the AssetBuilder should return an Asset and be called build().. The final method of the FundingDetailsBuilder should return a FundingDetails and be called build(). // Create a class called AssetBuilder. It should use the Builder pattern to build an Asset. Create another class called FundingDetailsBuilder. It should use the Builder pattern to build a FundingDetails. The AssetBuilder should have an embedded FundingDetailsBuilder. When the category is "hardware" the AssetBuilder should create a Hardware object. When the category is "software" the AssetBuilder should create a Software object. When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy. When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy. When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy. When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy. The variables will need to be held in local variables and then passed to the Asset and FundingDetails objects when they are created.. The final method of the AssetBuilder should return an Asset and be called build().. The final method of the FundingDetailsBuilder should return a FundingDetails and be called build(). // Create a class called AssetBuilder. It should use the Builder pattern to build an Asset. Create another class called FundingDetailsBuilder. It should use the Builder pattern to build a FundingDetails. The AssetBuilder should have an embedded FundingDetailsBuilder. When the category is "hardware" the AssetBuilder should create a Hardware object. When the category is "software" the AssetBuilder should create a Software object. When depreciation_strategy is equal to "straight_line" it should return a new instance of StraightLineDepreciationStrategy. When depreciation_strategy is equal to "double_declining_balance" it should return a new instance of DoubleDecliningDepreciationStrategy. When depreciation_strategy is equal to "none" it should return a new instance of NoDepreciationStrategy. When depreciation_strategy is equal to "declining_balance" it should return a new instance of DecliningBalanceDepreciationStrategy. The variables will need to be held in local variables and then passed to the Asset and FundingDetails objects when they are created.. The final method of the AssetBuilder should return an Asset and be called build().. The final method of the FundingDetailsBuilder should return a FundingDetails and be called build().
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>4.0.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.8</version> <!-- Latest stable version -->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal> <!-- This prepares the agent for coverage analysis -->
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase> <!-- Creates a report during the verify phase -->
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
